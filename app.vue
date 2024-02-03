@@ -1,11 +1,11 @@
 <template>
-	<div class="min-h-screen flex flex-col justify-between">
-		<header class="h-16 bg-gray-8"></header>
-		<main class="w-screen flex grow flex-row">
-			<Sidebar class="w-1/5 bg-gray-6" />
+	<div class="h-screen max-h-screen flex flex-col justify-between">
+		<Header class="h-2/20 bg-gray-8" />
+		<main class="h-17/20 w-screen flex flex-row">
+			<Sidebar class="h-full w-1/5 bg-gray-6" />
 			<Content class="w-4/5" />
 		</main>
-		<footer class="h-16 bg-gray-8"></footer>
+		<footer class="h-1/20 bg-gray-8"></footer>
 	</div>
 </template>
 

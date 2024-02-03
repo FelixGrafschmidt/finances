@@ -9,12 +9,14 @@ interface Month {
 	year: number
 	entries: Entry[]
 	edit: boolean
+	total: number
 }
 
 interface Entry {
 	title: string
-	category: string
+	// category: string
 	value: number
 	notes: string
-	planned: boolean
+	// planned: boolean
+	recurring: "never" | "daily" | "weekly" | "yearly"
 }
